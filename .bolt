@@ -1,17 +1,10 @@
-name: "mypins"
-version: "1.0.0"
 appFiles:
-  entry: "src/main.tsx"
-  html: "index.html"
-  styles: "src/index.css"
-  components:
-    - "src/components/**/*.tsx"
-  pages:
-    - "src/pages/**/*.tsx"
-  assets:
-    - "src/assets/**/*"
-type: "vite"
-dependencies:
-  - "react"
-  - "react-dom"
-  - "vite"
+  entry: src/main.tsx
+  html: index.html
+  styles: src/index.css
+  source:
+    - src/**/*.tsx
+    - src/**/*.ts
+    - src/**/*.css
+name: mypins
+version: 1.0.0
