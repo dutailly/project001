@@ -1,10 +1,12 @@
-appFiles:
-  entry: src/main.tsx
-  html: index.html
-  styles: src/index.css
-  source:
-    - src/**/*.tsx
-    - src/**/*.ts
-    - src/**/*.css
-name: mypins
-version: 1.0.0
+project:
+  appFiles:
+    entry: src/main.tsx
+    html: index.html
+    styles: src/index.css
+    source:
+      - src/**/*.tsx
+      - src/**/*.ts
+      - src/**/*.css
+  name: mypins
+  type: vite
+  version: 1.0.0
