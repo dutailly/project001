@@ -1,12 +1,16 @@
 name: mypins
 version: 1.0.0
+type: vite
 scripts:
-  start: "npm start"
-  build: "npm run build"
+  dev: "vite"
+  build: "tsc && vite build"
+  preview: "vite preview"
 dependencies:
   - react
   - react-dom
-  - react-scripts
+  - @vitejs/plugin-react
+  - typescript
+  - vite
 appFiles:
   entry: src/main.tsx
   html: index.html
@@ -15,3 +19,5 @@ appFiles:
     - vite.config.ts
     - tsconfig.json
     - package.json
+    - postcss.config.js
+    - tailwind.config.js
