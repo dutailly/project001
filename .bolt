@@ -1,0 +1,17 @@
+name: mypins
+version: 1.0.0
+scripts:
+  start: "npm start"
+  build: "npm run build"
+dependencies:
+  - react
+  - react-dom
+  - react-scripts
+appFiles:
+  entry: src/main.tsx
+  html: index.html
+  styles: src/index.css
+  config:
+    - vite.config.ts
+    - tsconfig.json
+    - package.json
